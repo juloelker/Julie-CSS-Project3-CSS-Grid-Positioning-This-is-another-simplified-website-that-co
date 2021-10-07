@@ -1,1 +1,3 @@
-# Julie-CSS-Project3-CSS-Grid-Positioning-This-is-another-simplified-website-that-co
+# Julie-Sample-Website-3
+
+This website is from my user story, SW3-1, which updates the website to use CSS grid.  It includes the Home and About pages.  User story SW3-2 will have 4 pages, Home, About, Blog and Contact.
