@@ -26,6 +26,12 @@ body {
     justify-items: center;
     background-color: #3a8abc;
   }
+
+  .contact {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr) auto auto;
+    justify-content: center;
+  }
 }
 
 /****** general styles *****/
@@ -45,6 +51,18 @@ h2 {
 
 p {
   margin: 1rem;
+}
+
+.btn1 {
+  height: 1.5rem;
+  width: 4rem;
+  background: #3a8abc;
+  border: 0;
+  border-radius: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #fff;
+  justify-self: center;
 }
 
 /****navigation****/
@@ -80,6 +98,28 @@ p {
 .main-area {
   padding: 0 2rem;
   overflow: auto;
+}
+
+.contact {
+  padding: 0 1rem 1rem;
+}
+
+.contact input {
+  min-width: 90%;
+}
+
+.contact textarea {
+  min-width: 90%;
+  min-height: 6rem;
+}
+
+.contact > div {
+  padding: 0.5rem;
+  background: #ccc;
+}
+
+#send-btn {
+  text-align: center;
 }
 
 .item-footer {
